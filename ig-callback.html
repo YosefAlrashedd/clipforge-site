@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Returning to ClipForge…</title>
+</head>
+<body>
+<p>Returning to ClipForge…</p>
+<script>
+  // Fixed target only: hands Instagram's ?code&state to the ClipForge server on this computer.
+  location.replace('http://localhost:4000/api/oauth/instagram/callback' + location.search);
+</script>
+</body>
+</html>
