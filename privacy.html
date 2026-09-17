@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Yosef ClipForge</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,'Segoe UI',sans-serif;color:#1b1838;background:#f5f3fc}
+main{max-width:720px;margin:0 auto;padding:56px 20px 80px}
+h1{font-size:34px;letter-spacing:-.03em;margin:0 0 6px;background:linear-gradient(100deg,#6c47ff,#ff4fa3);-webkit-background-clip:text;background-clip:text;color:transparent;width:fit-content}
+h2{font-size:19px;margin:32px 0 6px}
+p,li{color:#47426c}
+a{color:#6c47ff}
+nav{display:flex;gap:16px;margin:0 0 36px;font-weight:600}
+.muted{color:#6f6a92;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+<h1>Privacy Policy</h1>
+<p>Yosef ClipForge ("the tool") is a personal, self-hosted application that runs on its owner's own computer. This policy explains what data it handles.</p>
+<h2>What data is handled</h2>
+<ul>
+<li><strong>Account connection data</strong> - when the owner connects a TikTok account, the tool receives an access token, a refresh token, and basic profile info (open ID, display name, avatar) via TikTok Login Kit with the <code>user.info.basic</code> scope.</li>
+<li><strong>Videos and captions</strong> - the owner's own clips and the captions written for them, sent to TikTok via the Content Posting API (<code>video.upload</code>, <code>video.publish</code>) only when the owner chooses to publish.</li>
+</ul>
+<h2>Where it is stored</h2>
+<p>All data stays on the owner's own computer. Access tokens are stored encrypted (AES-256-GCM) in a local database. Nothing is sent to any server other than the official APIs of the platform being published to.</p>
+<h2>Sharing</h2>
+<p>No data is sold, shared with third parties, or used for advertising or analytics. The tool has no tracking and no other users.</p>
+<h2>Retention and deletion</h2>
+<p>Disconnecting an account inside the tool deletes its stored tokens and profile info. Access can also be revoked in TikTok under Settings and privacy &rarr; Security &amp; permissions &rarr; Manage app permissions. Deleting the tool's data folder removes everything.</p>
+<h2>Contact</h2>
+<p>Privacy questions or deletion requests: <a href="https://github.com/YosefAlrashedd/clipforge-site/issues">open an issue on GitHub</a>.</p>
+<p class="muted">Last updated: 17 September 2026</p>
+</main>
+</body>
+</html>
